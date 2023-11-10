@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smm</title>
+    <link rel="stylesheet" href="./css/materialize/cus.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="wrapper" id="top">
+    <header>
+        <div class="shadow-block">
+            <div class="container">
+                <nav id="menu-header" class="clearfix">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="./img/home/logo.png" alt="img-logo">
+                        </a>
+                    </div>
+                    <ul class="menu">
+                        <li><a href="./view/about-company.html">Company <span class="border"></span></a></li>
+                        <li><a href="./view/coffee-page.html">Coffee <span class="border"></span></a></li>
+                        <li><a href="./view/partnership.html">Partnership <span class="border"></span></a></li>
+                        <li><a href="./view/news-page.html">News <span class="border"></span></a></li>
+                        <li><a href="./view/contact-page.html">Contacts <span class="border"></span></a></li>
+                    </ul>
+                    <div class="account-block">
+                        <a href="#content" class="account scroll">Account<span class="dotted"></span></a>
+                        <a href="#content" class="log-in scroll"><span>Log in</span><img src="./img/home/log-in.png" alt="img"></a>
+                        <a href="#content" class="lang scroll">EN</a>
+                    </div>
+                </nav>
+                <div class="title">
+                    <h1>Smm<span><img src="./img/home/logo-1.png" alt="img-logo"></span></h1>
+                    <div class="border"></div>
+                    <h2>
+                        import-export <br>
+                        wholesale coffee
+                    </h2>
+                </div>
+                <a href="#content" class="mouse-block scroll">
+                    <span class="radius"></span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div id="content" class="content">
+        <div class="toggle-menu">
+            <span></span>
+        </div>
+        <nav id="menu-mobile" class="clearfix">
+            <div class="container-mobile-menu">
+                <div class="logo">
+                    <a href="index.html">
+                        <div class="title-mobile-menu">
+                            <h2>Smm<span><img src="./img/home/logo-mobile.png" alt="img-logo"></span></h2>
+                            <div class="border"></div>
+                            <h3>import-export <br>wholesale coffee</h3>
+                        </div>
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li><a href="./view/about-company.html">Company <span class="border"></span></a></li>
+                    <li><a href="./view/coffee-page.html">Coffee <span class="border"></span></a></li>
+                    <li><a href="./view/partnership.html">Partnership <span class="border"></span></a></li>
+                    <li><a href="./view/news-page.html">News <span class="border"></span></a></li>
+                    <li><a href="./view/contact-page.html">Contacts <span class="border"></span></a></li>
+                </ul>
+                <div class="change-lang-container">
+                    <span class="change-lang">Change language on:</span>
+                    <a href="#" class="lang">EN</a>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </div>
+                <div class="copyright">
+                    <span>© 2016 all right reserved SMM.coffee</span>
+                </div>
+            </div>
+        </nav>
+        <nav id="nav" class="clearfix">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./img/home/logo.png" alt="img-logo">
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li><a href="./view/about-company.html">Company <span class="border"></span></a></li>
+                    <li><a href="./view/coffee-page.html">Coffee <span class="border"></span></a></li>
+                    <li><a href="./view/partnership.html">Partnership <span class="border"></span></a></li>
+                    <li><a href="./view/news-page.html">News <span class="border"></span></a></li>
+                    <li><a href="./view/contact-page.html">Contacts <span class="border"></span></a></li>
+                </ul>
+                <div class="account-block">
+                    <a href="#" class="account" data-toggle="modal" data-target="#login">
+                        <img src="./img/home/user-2.svg" alt="img-logo">
+                        <span class="text">Account</span><span class="dotted"></span>
+                    </a>
+                    <a href="#" class="log-in " data-toggle="modal" data-target="#log-out">
+                        <span>Log out</span><img src="./img/home/log-in.png" alt="img">
+                    </a>
+                    <a href="#" class="lang">IT</a>
+                </div>
+            </div>
+            <div class="container-modals">
+                <div id="login" class="modal fade">
+                    <div class="modal-style">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-8 col-sm-8">
+                                    <div class="login-form-container">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-12">
+                                                <h3 class="title-login">Please log in to use account tools:</h3>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-12">
+                                                <form class="form-login row">
+                                                    <div class="form-group col-xs-4 col-sm-4">
+                                                        <input type="email" class="form-control" placeholder="Email"
+                                                               required>
+                                                    </div>
+                                                    <div class="form-group col-xs-4 col-sm-4">
+                                                        <input type="password" class="form-control" placeholder="Password"
+                                                               required>
+                                                    </div>
+                                                    <div class="form-group col-xs-2 col-sm-2">
+                                                        <button type="submit" class="btn btn-default progress-on">Login
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                                <a href="#" class="forgot-pass" data-dismiss="modal" data-toggle="modal" data-target="#new-pass">forgot
+                                                    password?</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4">
+                                    <h3 class="dont-account">I don't have account:</h3>
+                                    <a href="#" class="register" data-dismiss="modal" data-toggle="modal"
+                                       data-target="#registration">Register</a>
+                                    <a href="#" data-dismiss="modal" class="close close-login"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="new-pass" class="modal fade">
+                    <div class="modal-style">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-8 col-sm-8">
+                                    <div class="login-form-container">
+                                        <div class="row">
+                                            <h3 class="title-login">To get new password please send your registered
+                                                e-mail.</h3>
+                                            <form class="form-login clearfix">
+                                                <div class="form-group col-xs-7">
+                                                    <input type="email" class="form-control" placeholder="Email">
+                                                </div>
+                                                <div class="form-group col-xs-4 col-sm-5">
+                                                    <button type="submit" class="btn btn-default">Get new password</button>
+                                                </div>
+                                            </form>
+                                            <a href="#" class="forgot-pass" data-dismiss="modal" data-toggle="modal" data-target="#login">back to Log in</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4">
+                                    <h3 class="dont-account">I don't have account:</h3>
+                                    <a href="#" class="register" data-dismiss="modal" data-toggle="modal"
+                                       data-target="#registration">Register</a>
+                                    <a href="#" data-dismiss="modal" class="close"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="registration" class="modal fade">
+                    <div class="registration">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <a href="#" class="back-login" data-dismiss="modal" data-toggle="modal" data-target="#login">
+                                        <span class="glyphicon glyphicon-menu-left"></span> back to log in
+                                    </a>
+                                    <a href="#" data-dismiss="modal" class="close"></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="title-register">
+                                        <h2>Account registration</h2>
+                                        <p><span class="alert-danger">*</span>This information we need from you in order to
+                                            process your orders well</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <form>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="col-sm-12">
+                                            <div class="inform-text">
+                                                <p>Personal information</p>
+                                                <span class="border"></span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group  input-field col-sm-3">
+                                            <select class="form-control">
+                                                <option value="Signora">Signora</option>
+                                                <option value="Signora">Signore</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group input-field col-sm-8">
+                                            <label for="first-name">First Name<span
+                                                    class="alert-danger">*</span></label>
+                                            <input id="first-name" type="text"
+                                                   class="form-control" required>
+                                            <span class="error">This is required</span>
+                                        </div>
+                                        <div class="form-group input-field col-sm-12">
+                                            <label for="last-name">Surname<span class="alert-danger">*</span></label>
+                                            <input id="last-name" type="text" class="form-control" value="Player"
+                                                   required>
+                                            <span class="error">This is required</span>
+                                        </div>
+                                        <div class="form-group input-field col-sm-12">
+                                            <label for="e-mail">E-mail<span class="alert-danger">*</span></label>
+                                            <input value="coffee.wholesale@gmail.com" id="e-mail" type="text"
+                                                   class="form-control" required>
+                                            <span class="error">Your E-mail will be attached to your account without the possibility of change</span>
+                                        </div>
+                                        <div class="form-group input-field col-sm-12">
+                                            <label for="Function">Function</label>
+                                            <input id="Function" type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group input-field col-sm-12">
+                                            <label for="num">Phone number</label>
+                                            <input id="num" type="number" min="0" class="form-control">
+                                            <a href="#" class="add-phone add-phone-personal">+ add phone number</a>
+                                        </div>
+                                        <div class="form-group input-field col-sm-12 hidden-phone">
+                                            <label for="num-2">Phone number-2</label>
+                                            <input id="num-2" type="number" min="0" class="form-control">
+                                            <a href="#" class="add-phone add-phone-personal-2">+ add phone number</a>
+                                        </div>
+                                        <div class="form-group input-field col-sm-12 hidden-phone-2">
+                                            <label for="num-3">Phone number-3</label>
+                                            <input id="num-3" type="number" min="0" class="form-control">
+                                        </div>
+                                        <div class="form-group input-field col-sm-12 ">
+                                            <label for="Website-2">Website</label>
+                                            <input id="Website-2" type="text" class="form-control">
+                                            <a href="#" class="add-phone add-website-personal">+ add website</a>
+                                        </div>
+                                        <div class="form-group input-field col-sm-12 hidden-website">
+                                            <label for="Website">Website-2</label>
+                                            <input id="Website" type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="col-sm-12">
+                                            <div class="inform-text company-title">
+                                                <p>Company information</p>
+                                                <span class="border"></span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group input-field col-sm-12">
+                                            <label for="registration-number">Company registration number</label>
+                                            <input id="registration-number" type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group input-field col-sm-12">
+                                            <label for="Vat-number">Vat number<span
+                                                    class="alert-danger">*</span></label>
+                                            <input id="Vat-number" type="text" class="form-control" required>
+                                            <span class="error">This is required</span>
+                                        </div>
+                                        <div class="form-group input-field col-sm-12">
+                                            <label for="Company-Name">Company Name</label>
+                                            <input id="Company-Name" type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group input-field col-sm-12">
+                                            <label for="Company-E-mail">Company E-mail</label>
+                                            <input id="Company-E-mail" type="email" class="form-control">
+                                        </div>
+                                        <div class="form-group input-field col-sm-4">
+                                            <label for="Post-Code">Post Code</label>
+                                            <input id="Post-Code" type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group input-field col-sm-8">
+                                            <label for="Adress">Adress</label>
+                                            <input id="Adress" type="text" class="form-control">
+                                            <a href="#" class="add-phone add-address-company">+ add address</a>
+                                        </div>
+
+                                        <div class="post-code hidden-post-code">
+                                            <div class="form-group input-field col-sm-4">
+                                                <label for="Post-Code-2">Post Code</label>
+                                                <input id="Post-Code-2" type="text" class="form-control">
+                                            </div>
+                                            <div class="form-group input-field col-sm-8">
+                                                <label for="Adress-2">Adress</label>
+                                                <input id="Adress-2" type="text" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group input-field col-sm-12">
+                                            <label for="number-company">Phone number</label>
+                                            <input id="number-company" type="number" min="0" class="form-control">
+                                            <a href="#" class="add-phone add-phone-2">+ add phone number</a>
+                                        </div>
+                                        <div class="form-group input-field col-sm-12 hidden-phone-company">
+                                            <label for="number-company-2">Phone number-2</label>
+                                            <input id="number-company-2" type="number" min="0" class="form-control">
+                                            <a href="#" class="add-phone add-phone-3">+ add phone number</a>
+                                        </div>
+                                        <div class="form-group input-field col-sm-12 hidden-phone-company-3">
+                                            <label for="number-company-3">Phone number-3</label>
+                                            <input id="number-company-3" type="number" min="0" class="form-control">
+                                        </div>
+                                        <div class="form-group input-field col-sm-12">
+                                            <label for="Website-company">Website</label>
+                                            <input id="Website-company" type="text" class="form-control">
+                                            <a href="#" class="add-phone add-website">+ add website</a>
+                                        </div>
+                                        <div class="form-group input-field col-sm-12 hidden-website-company">
+                                            <label for="Website-company-2">Website-2</label>
+                                            <input id="Website-company-2" type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="to-get-email-container">
+                                            <span class="get-email">l want to get mail with offers on:</span>
+
+                                            <input id="person-email" type="checkbox" class="person-email" checked>
+                                            <label class="custom-check" for="person-email"></label>
+                                            <span class="person-email-text">Personal E-mail</span>
+
+                                            <input id="company-email" type="checkbox" class="company-email">
+                                            <label class="custom-check" for="company-email"></label>
+                                            <span class="company-email-text">Company E-mail</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="container-submit">
+                                            <input type="submit" class="register-button" value="Register">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="log-out" class="modal fade">
+                    <div class="modal-style log-out">
+                        <h3>Do yoy ready want to log out?</h3>
+                        <a href="#">Yes</a>
+                        <a href="#" data-dismiss="modal">No</a>
+                    </div>
+                </div>
+                <div id="settings-log-out" class="modal fade">
+                    <div class="modal-style">
+                        <div class="container-settings">
+                            <div class="row">
+                                <div class="col-sm-10 col-xs-12">
+                                    <div class="setting-log-out-container clearfix">
+                                        <h3>Account settings:</h3>
+
+                                        <a data-toggle="tab" href="./view/account-settings.html#personal-company-info" target="_blank" class="personal-company-info">Personal\Company Info</a>
+
+                                        <a data-toggle="tab" href="./view/account-settings.html#change-password" class="change-pass">Change Password</a>
+
+                                        <a data-toggle="tab" href="./view/account-settings.html#items-wishlist" class="items-wishlist">Items Wishlist</a>
+
+                                        <a data-toggle="tab" href="./view/account-settings.html#mailing-offers" class="mailling-offers">Mailing offers</a>
+
+                                        <a data-toggle="tab" href="./view/account-settings.html#faq" class="faq">Faq</a>
+
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 col-xs-12">
+                                    <div class="log-out-container">
+                                        <a href="#" data-toggle="modal" data-target="#log-out" class="log-out">Log out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="coffee-container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="ground-coffee">
+                        <div class="shadow-block">
+                            <a href="./view/coffee-page.html">Ground coffee</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="coffee-beans">
+                        <div class="shadow-block">
+                            <a href="./view/coffee-page.html">Coffee beans</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brand">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <p class="world-coffee">World coffee brands:</p>
+                    </div>
+                    <div class="col-xs-6">
+                        <ul class="brand-coffee">
+                            <li><img src="./img/home/brand/lavazza-1.png" alt="img-brand"></li>
+                            <li><img src="./img/home/brand/kimbo-1.png" alt="img-brand"></li>
+                            <li><img src="./img/home/brand/gilles-1.png" alt="img-brand"></li>
+                            <li><img src="./img/home/brand/dallmayr-1.png" alt="img-brand"></li>
+                            <li><img src="./img/home/brand/gimoka-1.png" alt="img-brand"></li>
+                            <li><img src="./img/home/brand/movenpick-1.png" alt="img-brand"></li>
+                            <li><img src="./img/home/brand/illy.png" alt="img-brand"></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3 col-sm-2">
+                        <a href="./view/coffee-page.html" class="view-all-coffee">View all coffee</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="account-advantages">
+            <div class="container">
+                <h3><a href="#" data-toggle="modal" data-target="#registration">Register</a> your own account and get acces to prices and other useful tools: </h3>
+                <div class="tabs-container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="title-tabs">
+                                <h2>Account advantages</h2>
+                                <p>(choose for details)</p>
+                            </div>
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="active">
+                                    <a role="tab" data-toggle="tab" href="#home">
+                                        <span class="mark-block"></span>See all actual prices in catalog
+                                    </a>
+                                </li>
+                                <li>
+                                    <a role="tab"  data-toggle="tab" href="#menu1">
+                                        <span class="mark-block"></span>make fast wishlist with interested items and send it to manager
+                                    </a>
+                                </li>
+                                <li>
+                                    <a role="tab"  data-toggle="tab" href="#menu2">
+                                        <span class="mark-block"></span>configure mailing settings to keep abreast of the latest offers
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="tab-content">
+                                <img src="./img/home/display-border.png" class="display-border" alt="">
+                                <div id="home" class="tab-pane fade in active">
+                                    <img src="./img/home/prices.jpg" alt="img-display">
+                                </div>
+                                <div id="menu1" class="tab-pane fade">
+                                    <img src="./img/home/prices.jpg" alt="img-display">
+                                </div>
+                                <div id="menu2" class="tab-pane fade">
+                                    <img src="./img/home/prices.jpg" alt="img-display">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="partnership">
+                    <div class="shadow-block">
+                        <div class="parner-text">
+                            <h2>Partnership</h2>
+                            <p>if you are intersted in cooperation onimport-export world brand coffee</p>
+                            <a href="./view/partnership.html" class="view-info">View info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="contact-us">
+                    <div class="shadow-block">
+                        <div class="contact-text">
+                            <h2>Contact us</h2>
+                            <p>
+                                MILANO (MI) VIA LIPARI 9, 20144
+                            </p>
+                            <p>
+                                P.iva 08089650967
+                            </p>
+                            <p>
+                                +39 333 654 10 20
+                            </p>
+                            <p>
+                                info@smmitallia.it
+                            </p>
+                            <div class="social">
+                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <a href="#top" class="back-top scroll"><img src="./img/home/back-top.png" alt="img-arrow">
+            <span>back to top</span>
+        </a>
+        <span class="copyright-text">© 2016 all right reserved <a href="index.html">
+            <img src="./img/home/logo.png" alt="img-logo"></a> SMM. Wholesale coffee
+        </span>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/materialize/materialize.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="libs/bxslider/bxslider.min.js"></script>
+<script src="js/progress/js/mprogress.min.js"></script>
+<script src="js/smoothScroll.js"></script>
+<script src="js/common.js"></script>
+<script>
+    $(document).ready(function () {
+        if ($(document).width() <= 768) {
+            $('.brand-coffee').bxSlider({
+                pager: false,
+                controls: false,
+                slideWidth: 400,
+                minSlides: 4,
+                maxSlides: 4,
+                slideMargin: 10,
+                auto: true,
+                pause: 5000
+            })
+        } else {
+            $('.brand-coffee').bxSlider({
+                pager: false,
+                controls: false,
+                slideWidth: 500,
+                minSlides: 7,
+                maxSlides: 7,
+                slideMargin: 10
+            });
+        }
+
+    });
+</script>
+</body>
+</html>
